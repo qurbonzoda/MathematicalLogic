@@ -1,0 +1,6 @@
+1. Сompile java files into bytecode class files:
+javac -d . src/hw3/*.java
+2. Create jar file from class files and manifest file:
+jar cfm hw3.jar Manifest.txt hw3/*.class
+3. Run jar file
+java -jar hw3.jar <path to input file> <path to output file>
